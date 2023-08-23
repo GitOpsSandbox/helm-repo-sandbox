@@ -3,7 +3,7 @@ entries:
   helm-chart-test:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-08-23T09:42:51.0198179+02:00"
+    created: "2023-08-23T13:10:56.6719666+02:00"
     description: A Helm chart for Kubernetes
     digest: 9fb1f1e16a9e1be50139fb6c4cbbe72772341c59c0dc518ff490fe574777dce8
     name: helm-chart-test
@@ -11,4 +11,14 @@ entries:
     urls:
     - helm-chart-sources/helm-chart-test-0.1.0.tgz
     version: 0.1.0
-generated: "2023-08-23T09:42:51.0182522+02:00"
+  jib-maven-test:
+  - apiVersion: v2
+    created: "2023-08-23T13:10:56.6725056+02:00"
+    description: A Spring application contenerized using Jib
+    digest: 02dca768e6c2a282dfbcd37d8481989f634a4f5988037284e98054582ae1f846
+    name: jib-maven-test
+    type: application
+    urls:
+    - helm-chart-sources/jib-maven-test-0.1.0.tgz
+    version: 0.1.0
+generated: "2023-08-23T13:10:56.6708996+02:00"
